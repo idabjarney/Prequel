@@ -1,0 +1,46 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Source Sans Pro';
+}
+
+.button {
+
+    height: 60px;
+    width: 240px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    font-weight: 550;
+    color: white;
+    background-color: var(--teal);
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    display: block;
+}
+
+.heading2 {
+
+    color: var(--heading);
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.paragraph {
+
+    color: var(--body);
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 300;
+}
