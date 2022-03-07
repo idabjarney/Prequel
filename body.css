@@ -15,6 +15,14 @@ body {
     font-family: 'Source Sans Pro';
 }
 
+.wrapper {
+
+    width: 85%;
+    margin-left: auto;
+    min-height: 400vh;
+    background-color: red;
+}
+
 .button {
 
     height: 60px;

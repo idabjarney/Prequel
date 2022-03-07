@@ -1,5 +1,23 @@
 .header {
 
+    display: flex;
+    justify-content: center;
     background-color: #81918E;
     background-image: url(https://html5up.net/uploads/demos/prologue/images/banner.jpg);
+    background-size: cover;
+}
+
+.header .inner {
+
+    max-width: 840px;
+}
+
+.header .inner .text {
+
+    text-align: center;
+}
+
+.header .inner .text .heading2 {
+
+    color: white;
 }
