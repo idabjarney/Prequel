@@ -48,6 +48,7 @@
 
     list-style-type: none;
     width: 100%;
+    margin-bottom: 90%;
 }
 
 
@@ -74,7 +75,7 @@
 .nav .inner .links li i {
 
     font-size: 15px;
-    color: var(--heading);
+    color: #41484c;
     margin-left: 15px;
     transition: 400ms;
 }
@@ -86,4 +87,43 @@
 
 .nav .inner .links li:hover > i {
     color: #e27689;
+}
+
+.nav .inner .bottom {
+
+    align-items: center;
+    padding: 30px;
+    margin: 0 auto;
+    
+
+}
+
+.nav .inner .bottom .icons {
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 200px;
+    font-size: 18px;
+    transition: 400ms;
+
+}
+
+.nav .inner .bottom .icons li:nth-child(even) {
+
+    padding: 0 15px;
+}
+
+.nav .inner .bottom .icons li i {
+
+    color: #41484c;
+    transition: 400ms; 
+    cursor: pointer;
+}
+
+.nav .inner .bottom .icons li i:hover {
+
+    color: white;
 }
