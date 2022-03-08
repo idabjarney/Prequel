@@ -48,7 +48,6 @@
 
     list-style-type: none;
     width: 100%;
-    margin-bottom: 90%;
 }
 
 
@@ -91,9 +90,9 @@
 
 .nav .inner .bottom {
 
-    align-items: center;
+    width: 100%;
     padding: 30px;
-    margin: 0 auto;
+    margin-top: auto;
     
 
 }
@@ -105,7 +104,6 @@
     list-style-type: none;
     width: 100%;
     min-height: 100%;
-    padding-top: 200px;
     font-size: 18px;
     transition: 400ms;
 
@@ -113,7 +111,7 @@
 
 .nav .inner .bottom .icons li:nth-child(even) {
 
-    padding: 0 15px;
+    margin: 0 15px;
 }
 
 .nav .inner .bottom .icons li i {
@@ -123,7 +121,7 @@
     cursor: pointer;
 }
 
-.nav .inner .bottom .icons li i:hover {
+.nav .inner .bottom .icons li:hover > i {
 
     color: white;
 }
