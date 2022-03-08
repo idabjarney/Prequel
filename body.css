@@ -25,17 +25,27 @@ body {
 
 .button {
 
-    height: 60px;
-    width: 240px;
+    height: 82px;
+    width: 285px;
     border-radius: 10px 10px 10px 10px;
-    font-size: 19px;
-    font-weight: 550;
+    font-size: 25px;
+    font-weight: 300;
     color: white;
     background-color: var(--teal);
     border: none;
     cursor: pointer;
-    transition: 400ms;
-    display: block;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 3.2;
+    background-color: var(--teal);
+    transition: 600ms;
+}
+
+.button:hover {
+
+    background-color:#aed4d3;
 }
 
 .heading2 {

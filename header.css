@@ -9,15 +9,33 @@
 
 .header .inner {
 
-    max-width: 840px;
+    max-width: 700px;
 }
 
 .header .inner .text {
 
     text-align: center;
+    padding-top: 300px;
 }
 
 .header .inner .text .heading2 {
 
     color: white;
+}
+
+.header .inner .text .paragraph {
+
+    color: white;
+    font-size: 23px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 45px;
+
+}
+
+.header .inner .text .button {
+
+    margin-bottom: 300px;
 }
