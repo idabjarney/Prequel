@@ -51,12 +51,22 @@ body {
     color: var(--heading);
     font-size: 46px;
     font-weight: 300;
+    text-align: center;
 }
 
 .paragraph {
 
     color: var(--body);
-    font-size: 21px;
-    line-height: 1;
+    font-size: 25px;
+    line-height: 1.6;
     font-weight: 300;
+    text-align: center;
+}
+
+.paragraph2 {
+
+    color: var(--body);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
 }
